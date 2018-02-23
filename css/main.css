@@ -1,0 +1,257 @@
+.box-top{
+	background-image: url("../img/bg-header.jpg");
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 1219px;
+}
+
+.content-top {
+	display: block;
+	margin: 0 auto;
+	width: 65%;
+	position: relative;
+	top: 510px;
+}
+
+.subtitle-content-top {
+	color: #fff;
+	font-size: 33px;
+	text-align: center;
+	font-weight: 700;
+	font-family: 'GothamRounded-Bold';
+	font-size: 31px;
+}
+
+.description-content-top {
+	color: #fff;
+	font-size: 17px;
+	text-align: center;
+	padding-top: 55px;
+    font-weight: 300;
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'GothamRounded-Book';
+    font-size: 14px;
+}
+
+.content-bottom{
+	display: block;
+	margin: 0 auto;
+	width: 65%;
+	position: relative;
+	top: 585px;
+}
+
+.subtitle-content-bottom {
+	text-align: center;
+	color: #fff;
+	font-size: 35px;
+	margin-bottom: 100px;
+	font-family: 'GothamRounded-Book';
+}
+
+.box-bottom-green {
+	width: 147px;
+	height: 320px;
+	background: #00e2b5;
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.icon-banner-box-green{
+	height: 50px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+
+.titulo-box-green {
+	text-align: center;
+	color: #fff;
+	font-size: 26px;
+	font-family: 'GothamRounded-Bold';
+}
+
+.sub-titulo-box-green {
+	font-size: 15px;
+	text-align: center;
+	color: #fff;
+	font-family: 'GothamRounded-Book';
+}
+
+
+.valor-box-green {
+	text-align: center;
+	font-weight: 800;
+    font-size: 10px;
+    font-family: 'GothamRounded-Medium';
+}
+
+.descricao-box-green{
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+    font-weight: 500;
+    font-family: 'GothamRounded-Book';
+}
+
+.quantidade-pessoas {
+	font-size: 10px;
+	text-align: center;
+	font-family: 'GothamRounded-Medium';
+}
+
+.col-md-2 {
+	margin-right: 15px;
+}
+
+/** estilos formularios **/ 
+
+#formulario-1 {
+	text-align: center;
+}
+
+.form-right {
+	background: #ffcb4d;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	height: 1186px;
+}
+
+.form-2 {
+	margin-left: 30px;
+    padding-top: 40px;
+}
+
+.box-indicou-fechou-ganhou {
+	display: block;
+	margin: 0 auto;
+	width: 65%;
+	position: relative;
+	height: auto;
+}
+
+.title-forms{
+	font-family: 'GothamRounded-Bold';
+	text-align: center;
+	margin-bottom: 60px;
+    margin-top: 135px;
+    font-weight: 700;
+}
+
+.title-form-2 {
+	text-align: center;
+}
+
+.titulo-cadasto {
+	 font-family: 'GothamRounded-Book';
+}
+
+.titulo-form-2 {
+	font-family: 'GothamRounded-Book';
+	text-align: center;
+}
+
+.titulo-viva-experiencia {
+	font-family: 'GothamRounded-Book';
+	font-size: 18px;
+}
+
+.conteudo-viva-experiência {
+	font-family: 'GothamRounded-Medium';
+	font-size: 12px;
+}
+
+input {
+	border-radius: 10px;
+	height: 38px;
+	border: none;
+	width: 80%;
+}
+
+::-webkit-input-placeholder { 
+	font-family: 'GothamRounded-Book';
+	padding-left: 20px;
+}
+
+
+label {
+	font-family: 'GothamRounded-Bold';
+}
+
+
+.input-form-1 {
+	border: 1px solid #cbcbcb;
+}
+
+.btn-participar {
+	width: 90%;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background: #00e2b5;
+    color: #fff;
+    font-family: 'GothamRounded-Bold';
+    font-size: 22px;
+}
+
+.politica-privacidade {
+	text-align: center;
+	color: #717171;
+	padding-top: 20px;
+	font-family: 'GothamRounded-Medium';
+	font-size: 12px;
+}
+
+
+
+
+
+/* Responsivo */
+
+@media (max-width: 600px) {
+
+  .box-top{
+  	margin-bottom: 1869px;
+  }
+
+  .box-bottom-green {
+  	width: 100%;
+  	position: relative;
+    bottom: 230px;
+  }
+
+  .box-indicou-fechou-ganhou {
+  	bottom: 170px;	
+  }
+
+  input {
+  	width: 100%;
+  }
+
+  iframe {
+  	width: 100%;
+  }
+
+  .form-right{
+  	width: 100%;
+  }
+
+  .form-2{
+  	margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .form-group {
+  	text-align: center;
+  }
+
+}
+
+@media (max-width: 1232px) { 
+	.content-bottom {
+		width: 83%;
+	}
+}
